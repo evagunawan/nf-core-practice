@@ -13,20 +13,14 @@
 
 ## Introduction
 
-**nf-core/practice** is a bioinformatics pipeline that ...
+**nf-core/practice** is a way for my to get used to utilizing NF-CORE's create function
 
-<!-- TODO nf-core:
-   Complete this sentence with a 2-3 sentence summary of what types of data the pipeline ingests, a brief overview of the
-   major pipeline sections and the types of output it produces. You're giving an overview to someone new
-   to nf-core here, in 15-20 seconds. For an example, see https://github.com/nf-core/rnaseq/blob/master/README.md#introduction
--->
+I have no figure to add ere.
 
-<!-- TODO nf-core: Include a figure that guides the user through the major workflow steps. Many nf-core
-     workflows use the "tube map" design for that. See https://nf-co.re/docs/contributing/design_guidelines#examples for examples.   -->
-<!-- TODO nf-core: Fill in short bullet-pointed list of the default steps in the pipeline -->
-
-1. Read QC ([`FastQC`](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/))
-2. Present QC for raw reads ([`MultiQC`](http://multiqc.info/))
+With this tutoria I would ultimately like to:
+- write a readme for practice
+- link to the repository in github
+- write a readme for SYLENS
 
 ## Usage
 
@@ -36,6 +30,7 @@ to set-up Nextflow. Make sure to [test your setup](https://nf-co.re/docs/usage/i
 with `-profile test` before running the workflow on actual data.
 :::
 
+Thiswill be helpful when I work on sylen' nextflow/nf-core. This will help determine if queries are single or paired files.
 <!-- TODO nf-core: Describe the minimum required steps to execute the pipeline, e.g. how to prepare samplesheets.
      Explain what rows and columns represent. For instance (please edit as appropriate):
 
@@ -54,7 +49,7 @@ Each row represents a fastq file (single-end) or a pair of fastq files (paired e
 
 Now, you can run the pipeline using:
 
-<!-- TODO nf-core: update the following command to include all required parameters for a minimal example -->
+We will be using sylens through a docker image
 
 ```bash
 nextflow run nf-core/practice \
@@ -81,9 +76,7 @@ For more details about the output files and reports, please refer to the
 
 nf-core/practice was originally written by eva gunawan.
 
-We thank the following people for their extensive assistance in the development of this pipeline:
-
-<!-- TODO nf-core: If applicable, make list of people who have also contributed -->
+Kelsey and CJ because I'm not great at coding yet!
 
 ## Contributions and Support
 
@@ -92,6 +85,8 @@ If you would like to contribute to this pipeline, please see the [contributing g
 For further information or help, don't hesitate to get in touch on the [Slack `#practice` channel](https://nfcore.slack.com/channels/practice) (you can join with [this invite](https://nf-co.re/join/slack)).
 
 ## Citations
+
+perhaps one day, but not for this practice session!
 
 <!-- TODO nf-core: Add citation for pipeline after first release. Uncomment lines below and update Zenodo doi and badge at the top of this file. -->
 <!-- If you use nf-core/practice for your analysis, please cite it using the following doi: [10.5281/zenodo.XXXXXX](https://doi.org/10.5281/zenodo.XXXXXX) -->
